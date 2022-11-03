@@ -90,15 +90,18 @@ img {
 }
 
 #sec-2{
-  position: relative;
+  position: absolute;
 }
 
 h1{
-
+  color: #eeeeee;
+  size: 100PX;
 }
 
-@media screen and (max-width: 600px) {
+
+/* HIDE FROM MOBILE VIEW */
+/* @media screen and (max-width: 600px) {
   .webcam {
     display: none;
   }
-}
+} */
