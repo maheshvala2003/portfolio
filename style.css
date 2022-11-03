@@ -88,3 +88,17 @@ img {
     opacity: 0;
   }
 }
+
+#sec-2{
+  position: relative;
+}
+
+h1{
+
+}
+
+@media screen and (max-width: 600px) {
+  .webcam {
+    display: none;
+  }
+}
