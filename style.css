@@ -26,7 +26,6 @@ html {
   width: 100%;
   display: flex;
   align-items: center;
-
 }
 
 #logo {
@@ -39,7 +38,31 @@ html {
 
 #menu{
   cursor: pointer;
-  
+}
+
+nav{
+  flex: 2;
+  text-align: center;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  float: right;
+}
+
+nav ul li a:hover{
+  color: #00adb5;
+  text-decoration: underline;
+
+}
+
+.nav-about{
+  font-size: 18px;
+  font-weight: 500px;
+  color: #eeeeee;
+  font-family: "Nixie One", cursive;
 }
 
 #hello {
