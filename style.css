@@ -108,10 +108,12 @@ nav ul li a:hover {
 /* SCROLL DOWN */
 #arrow {
   width: 40px;
-  margin: 0px 600px;
   position: absolute;
   cursor: pointer;
   animation: arrow 1.5s ease-in-out infinite;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
 }
 @keyframes arrow {
   0% {
