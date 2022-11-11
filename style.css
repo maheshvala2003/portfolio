@@ -14,7 +14,7 @@ html {
   
 } */
 
-.container{
+.container {
   width: 100%;
   padding-left: 8%;
   padding-right: 8%;
@@ -22,7 +22,7 @@ html {
   overflow: hidden;
 }
 
-.navbar{
+.navbar {
   width: 100%;
   display: flex;
   align-items: center;
@@ -36,29 +36,27 @@ html {
   height: 70px;
 }
 
-#menu{
+#menu {
   cursor: pointer;
 }
 
-nav{
+nav {
   flex: 2;
   text-align: center;
 }
 
-nav ul li{
+nav ul li {
   list-style: none;
   display: inline-block;
   margin-right: 30px;
   float: right;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   color: #00adb5;
-  text-decoration: underline;
-
 }
 
-.nav-about{
+.nav-about {
   font-size: 18px;
   font-weight: 500px;
   color: #eeeeee;
@@ -73,7 +71,6 @@ nav ul li a:hover{
   font-weight: 400;
   font-family: "Nixie One", cursive;
 }
-
 
 #name {
   color: #00adb5;
